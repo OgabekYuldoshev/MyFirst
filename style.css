@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+}
+a{
+    text-decoration: none;
+}
+.container{
+   width: 80%;
+    margin: auto;
+
+    }
+
+#navbar{
+    background-color: #0009;
+    overflow: auto;
+    padding: 20px;
+    display: block;
+    border-bottom: 5px solid #FFF8;
+}
+.h1{
+    float: left;
+    color: white;
+}
+
+.container ul{
+    float: right;
+ list-style: none;
+     }
+.container ul li{
+    float: left;
+    }
+.container ul li a{
+    display: inline-block;
+    padding: 2px 20px;
+    color: white;
+    border: 2px solid #2ECC71;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-right: 15px;
+    transition: 0.25s;
+}
+.container ul li a:hover,.container ul li a.active {
+    background: #2ECC71;
+    color:#154360;
+}
+
+
+.box{   padding:40px;
+    width: 380px;
+    height: 450px;
+    background-color:#0009; 
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    border-radius: 50px;
+    border: 3px solid #FFF8;
+    color: white;
+    
+}
+.box ul{list-style: none;}
+.box ul li a{
+    color: white;}
+    
+   
+.box ul li{
+    padding: 20px;
+    margin-bottom: 40px;
+    color: white;
+    border: 2px solid #2ECC71;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.25s;
+    text-align: center;
+}
+.box ul li:hover{
+    background-color: #2ECC71;
+}
+
+body{
+    background-image: url(coding.jpg);
+    background-attachment: fixed;
+    background-size: cover
+}
+
+.box2{
+    height: 270px;
+    width: 650px;
+    background-color:#0009; 
+    position: absolute;
+    top: 54%;
+    left: 45%;
+    border-radius: 50px;
+    border: 3px solid #FFF8;
+    color: white;
+
+}
+.box2 p{
+    text-align: center;
+    padding: 35px;
+    font-size: 25px;
+    letter-spacing: 1px
+}
+.a{
+    height: 150px;
+    width:150px; 
+    position: absolute;
+    top:30%;
+    left: 45%;
+    border-radius: 30px;
+    background-image: url(html5-css31.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    }
+.b{
+    height: 150px;
+    width:150px; 
+    position: absolute;
+    top:30%;
+    left: 61.5%;
+    border-radius: 30px;
+        background-image: url(Java.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    }
+
+.c{
+    height: 150px;
+    width:150px; 
+    position: absolute;
+    top:30%;
+    left: 77.5%;
+    border-radius: 30px;       background-image: url(Codinglogo.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    }
+
+
+
+
+
+
+
